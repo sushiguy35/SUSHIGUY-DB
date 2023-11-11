@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET DATA</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title_container">
+          <span id="content">
+            <h2 class="typedtext"></h2>
+          </span>
+          <h1 id="sub_header"> GET DATA ON SUSHIGUY DB </h1>
+        </div>
+  
+        <div id="form_container">
+          <input placeholder="Username" type="name" id="username"/>
+        </div>
+  
+        <div id="button_container">
+          <button id="submit" onclick="get()"> SUBMIT </button>
+        </div>
+        
+        <hr>
+
+        <button onclick="window.location.href='../remove'">REMOVE DATA</button>
+        <button onclick="window.location.href='../'">CREATE DATA</button>
+        <button onclick="window.location.href='../update'">UPDATE DATA</button>
+
+      </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+<script src="get.data.js"></script>
+</html>
